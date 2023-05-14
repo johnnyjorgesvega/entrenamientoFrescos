@@ -1,0 +1,49 @@
+@import url('https://fonts.cdnfonts.com/css/himalaya');
+                
+
+#navbarlogin{
+    background-color: #F4F6F7;
+}
+
+#navlogin{
+    font-family: 'Himalaya', sans-serif;                                           
+    display: flex;
+    align-items: center;
+    font-size: 290%;
+    color: #E57373;
+}
+
+#c_inicio{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#c_inicio > div{
+  margin: 2%;
+}
+
+@media (max-width: 600px){
+  #c_inicio{
+      display: block;
+      padding-left: 20%;
+}
+  #c_inicio > div{
+      margin-block: 10%;
+  }
+}
+
+footer {
+  background-color: #F4F6F7;
+  padding: 2%;
+}
+
+body {
+    min-height: 100vh; /* altura mínima del body igual a la altura del viewport */
+    display: flex;
+    flex-direction: column; /* dirección de la flexbox */
+  }
+
+  main {
+    flex: 1; /* la sección del contenido debe tomar el resto del espacio disponible */
+  }
+  
